@@ -59,3 +59,20 @@ footer {
   font-size: 0.9em;
   color: #555;
 }
+.nav {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+}
+
+.nav a {
+  margin-right: 20px;
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  font-size: 1em;
+}
+
+.nav a:hover {
+  text-decoration: underline;
+}
