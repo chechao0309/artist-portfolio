@@ -111,7 +111,13 @@ footer {
   letter-spacing: 3px;
 }
 
-.top-left, .top-center, .top-right {
+.top-left, .top-right {
   display: flex;
   align-items: center;
+  font-family: 'Georgia', serif;
+}
+top-center{
+  display: flex;
+  align-items: center;
+  font-style: italic;
 }
