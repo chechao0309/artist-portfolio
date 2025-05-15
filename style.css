@@ -84,3 +84,34 @@ footer {
   color: #aa4c8f;
   text-decoration: underline;
 }
+
+.topbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1.5rem 2rem;
+  background-color: #fff;
+  border-bottom: 1px solid #eee;
+  font-family: 'Helvetica Neue', sans-serif;
+}
+
+.topbar a {
+  text-decoration: none;
+  margin: 0 1rem;
+  font-size: 0.95rem;
+  text-transform: uppercase;
+  color: #333;
+  letter-spacing: 1px;
+}
+
+.topbar .brand {
+  font-weight: bold;
+/*   color: #f4b400; /* 艺术黄，可自定义 */ */
+  font-size: 1.2rem;
+  letter-spacing: 3px;
+}
+
+.top-left, .top-center, .top-right {
+  display: flex;
+  align-items: center;
+}
